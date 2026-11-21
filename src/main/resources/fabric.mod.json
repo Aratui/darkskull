@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "darkskull",
+  "version": "${version}",
+  "name": "Dark Skull",
+  "description": "Queime uma cabeca de Wither Skeleton e todos ficam com skin escura e sem nametag.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.exemplo.darkskull.DarkSkull"],
+    "client": ["com.exemplo.darkskull.DarkSkullClient"]
+  },
+  "mixins": ["darkskull.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
