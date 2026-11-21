@@ -1,8 +1,0 @@
-{
-  "required": true,
-  "package": "com.exemplo.darkskull.mixin",
-  "compatibilityLevel": "JAVA_21",
-  "mixins": ["ItemEntityMixin"],
-  "client": ["client.PlayerSkinMixin"],
-  "injectors": { "defaultRequire": 1 }
-}
