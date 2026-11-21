@@ -1,0 +1,5 @@
+1. Crie um repositorio publico no GitHub.
+2. Suba TODO o conteudo desta pasta (inclusive .github).
+3. Aba Actions > build > baixe o artifact darkskull-jar.
+4. Use o .jar sem "-sources" em mods/ (servidor e clientes) junto com a Fabric API.
+Se der erro, mande as linhas "error:" do log.
